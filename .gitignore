@@ -1,15 +1,15 @@
 # Godot 4+ specific ignores
 .godot/
-/android/
+.import/
+export.cfg
+export_presets.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
 
 # Export directories
 /export/
 exports/
-
-# Mono / C# (if using C#)
-.mono/
-data_*/
-mono_crash_*.json
 
 # IDE / Editor
 *.iml
@@ -18,5 +18,8 @@ mono_crash_*.json
 *.swp
 *.swo
 *~
+*.tmp
+
+# OS-specific
 .DS_Store
 Thumbs.db
