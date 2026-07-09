@@ -1,3 +1,22 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+# Export directories
+/export/
+exports/
+
+# Mono / C# (if using C#)
+.mono/
+data_*/
+mono_crash_*.json
+
+# IDE / Editor
+*.iml
+.idea/
+.vscode/settings.json
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
